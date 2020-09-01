@@ -22,5 +22,6 @@ int main()
     memcpy(&nameVec[15], &age, 1);
     const char name5[] = { (char)97,(char)108, (char)105 };
     std::cout <<"My name is: " << nameVec.data() << " I am: " << (int)nameVec[15] << " years old " << "Size of name vec: " << sizeof(nameVec) << endl;
+    cout << "added commit" << endl;
 }
 
